@@ -1,0 +1,12 @@
+def bottles(ar,x):
+  m=dict()
+  a=0
+  for i in range(n):
+     m[ar[i]]=m.get(ar[i],0)+1
+     ans=max(a,m[ar[i]])
+  print('min no. of",visible bottle are
+  ",ans)
+ x=int(input())
+ ar=list(map(int,input().split("")))
+ bottles(ar,x)
+  
